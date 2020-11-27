@@ -12,7 +12,16 @@ class Document extends NextDocument {
 				<Head>
 
 					<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-				
+					<script
+							dangerouslySetInnerHTML={{
+								__html: `
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'G-SK5R3JP8M7');
+					`
+                }}/>
+
 					{/* Layout dark mode */}
 					<style>
 						{`

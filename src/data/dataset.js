@@ -43,8 +43,6 @@ const buildDataSetFromImport = (iconsAsImport, tags = "") => {
 	})
 }
 
-console.log(...buildDataSetFromImport(AWSAppIntegration))
-
 const dataset = [
 	...buildDataSetFromImport(AWSAnalytics, ["analytics"]),
 	...buildDataSetFromImport(AWSAppIntegration, ["app", "integration"]),
@@ -95,7 +93,6 @@ function autoTags(name) {
 		const auto = autoTags(each.name)
 
 		const alt = tags[each.name]
-		console.log("auto", auto, alt)
 		const altAuto = []
 		if (alt !== undefined) {
 			for (const each of alt) {
@@ -104,7 +101,6 @@ function autoTags(name) {
 		}
 		// const deduped = [...new Set([...auto, ...altAuto])]
 		// each.tags.push(...deduped)
-		console.log("each", each)
 	}
 })()
 

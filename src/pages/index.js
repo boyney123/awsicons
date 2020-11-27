@@ -163,10 +163,10 @@ const Attribution = () => (
 				<Space />
 				<a
 					className="font-semibold no-underline hover:underline"
-					href="https://awsicons.dev"
+					href="https://heroicons.dev"
 					{...target_blank}
 				>
-					awsicons.dev
+					heroicons.dev
 				</a>
 				{"."}
 			</span>
