@@ -1,0 +1,1 @@
+export { default as ArchAwsRoboMaker32 } from './ArchAwsRoboMaker32'

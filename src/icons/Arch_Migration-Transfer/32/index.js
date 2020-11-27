@@ -1,0 +1,7 @@
+export { default as ArchAwsApplicationDiscoveryService32 } from './ArchAwsApplicationDiscoveryService32'
+export { default as ArchAwsCloudEndureMigration32 } from './ArchAwsCloudEndureMigration32'
+export { default as ArchAwsDataSync32 } from './ArchAwsDataSync32'
+export { default as ArchAwsDatabaseMigration32 } from './ArchAwsDatabaseMigration32'
+export { default as ArchAwsMigrationHub32 } from './ArchAwsMigrationHub32'
+export { default as ArchAwsServerMigrationService32 } from './ArchAwsServerMigrationService32'
+export { default as ArchAwsTransferFamily32 } from './ArchAwsTransferFamily32'

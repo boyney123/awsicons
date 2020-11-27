@@ -1,0 +1,1 @@
+export { default as ArchAwsBraket32 } from './ArchAwsBraket32'

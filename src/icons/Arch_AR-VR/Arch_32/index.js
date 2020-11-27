@@ -1,0 +1,1 @@
+export { default as ArchAwsSumerian32 } from './ArchAwsSumerian32'

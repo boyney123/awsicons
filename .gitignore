@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Next.js
+/.next
+/out
+
+# Node.js
+/*.log*
+/.env
+/node_modules
+
+# Production
+/build
+tailwind.generated.css

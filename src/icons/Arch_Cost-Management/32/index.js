@@ -1,0 +1,5 @@
+export { default as ArchAwsBudgets32 } from './ArchAwsBudgets32'
+export { default as ArchAwsCostExplorer32 } from './ArchAwsCostExplorer32'
+export { default as ArchAwsCostAndUsageReport32 } from './ArchAwsCostAndUsageReport32'
+export { default as ArchReservedInstanceReporting32 } from './ArchReservedInstanceReporting32'
+export { default as ArchSavingsPlans32 } from './ArchSavingsPlans32'

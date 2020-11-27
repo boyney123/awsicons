@@ -1,0 +1,1 @@
+export { default as ArchAmazonGameLift32 } from './ArchAmazonGameLift32'
