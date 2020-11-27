@@ -96,7 +96,7 @@ const AbsoluteExternalLinks = () => (
 				</a>
 
 				<a
-					href="https://github.com/boyney123/awsicons.dev"
+					href="https://github.com/boyney123/awsicons"
 					{...target_blank}
 				>
 					<Style className="py-1">
