@@ -213,21 +213,7 @@ const Attribution = () => (
 				{"."}
 			</span>
 		</span>
-		<div className="w-full max-auto text-center mt-5">
-			<a
-				href="https://www.producthunt.com/posts/aws-icons?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-aws-icons"
-				target="_blank"
-			>
-				<img
-					src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=276437&theme=light"
-					alt="AWS Icons - Search for AWS icons easily | Product Hunt"
-					styles={{ width: "250px", height: "54px" }}
-					width="250"
-					height="54"
-					className="mx-auto"
-				/>
-			</a>
-		</div>
+	
 	</h2>
 );
 
