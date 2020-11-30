@@ -34,9 +34,27 @@ const buildDataSetFromImport = (iconsAsImport, tags = "") => {
 			.replace("Amazon", "")
 			.replace("32", "")
 
+		// Clean up name for tokenizing
+		const filteredName = name
+			.replace('AiA2I', 'AiA2i')
+			.replace('Ec2M5N', 'Ec2M5n')
+			.replace('Ec2R5N', 'Ec2R5n')
+			.replace('IoT', 'Iot')
+			.replace('FSx', 'Fsx')
+			.replace('VMware', 'Vmware')
+
+		// Tokenize on capitalized words
+		const tokens = filteredName
+			.match(/([A-Z]?[^A-Z]*)/g)
+			.slice(0,-1)
+			.map(token => token.toLowerCase())
+
+		// Dedup tags
+		const combinedTags = new Set([name.toLowerCase(), ...tokens, ...tags])
+
 		return {
 			name,
-			tags: [name.toLowerCase(), ...tags],
+			tags: Array.from(combinedTags),
 			svg: iconsAsImport[item],
 			new: false,
 		}
@@ -59,7 +77,7 @@ const dataset = [
 	...buildDataSetFromImport(AWSEndUserComputing, ["enduser", "computing"]),
 	...buildDataSetFromImport(AWSGameTech, ["game"]),
 	...buildDataSetFromImport(AWSIOT, ["iot", "internet", "things"]),
-	...buildDataSetFromImport(AWSMachineLearning, ["AI", "machine", "learning"]),
+	...buildDataSetFromImport(AWSMachineLearning, ["ai", "machine", "learning"]),
 	...buildDataSetFromImport(AWSManagementGovernance, ["management"]),
 	...buildDataSetFromImport(AWSMediaServices, ["media", "services"]),
 	...buildDataSetFromImport(AWSMigrationTransfer, ["migration"]),
