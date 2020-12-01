@@ -178,44 +178,6 @@ const awsiconsLogo = () => (
 	</div>
 );
 
-const Attribution = () => (
-	<h2 className="text-center font-medium text-base text-orange-50">
-		<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
-			<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
-				<span className="inline">Forked with ♥️ from</span>
-				<Space />
-				<a
-					className="font-semibold no-underline hover:underline"
-					href="https://heroicons.dev"
-					{...target_blank}
-				>
-					heroicons.dev
-				</a>
-				{"."}
-			</span>
-			<Space />
-			<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
-				Forked/Built by
-				{/* <span className="inline sm:hidden"> */}
-				{/* 	Viewer by */}
-				{/* </span> */}
-				{/* <span className="hidden sm:inline"> */}
-				{/* 	Unofficial viewer by */}
-				{/* </span> */}
-				<Space />
-				<a
-					className="font-semibold no-underline hover:underline"
-					href="https://twitter.com/boyney123"
-					{...target_blank}
-				>
-					@boyney123
-				</a>
-				{"."}
-			</span>
-		</span>
-	
-	</h2>
-);
 
 // <a href="https://github.com/tailwindlabs/awsicons/archive/v0.4.1.zip" {...target_blank}>
 const CTAButtons = () => (
@@ -339,29 +301,87 @@ const SectionHero = () => (
 			<div className="w-full max-w-screen-xl">
 				<div className="h-16" />
 
-				
-
-				<div className="flex flex-row justify-center -ml-8">
-					<div className="w-16 h-16 mt-2">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="1.578 2.186 1087.411 855.842"
-						>
-							<path
-								fill="#F7A80D"
-								d="M318.839 547.785l-99.62 42.792 92.26 39.455 106.98-39.455-99.62-42.792zm-149.773 53.49l-3.338 192.564 145.75 64.188V658.104l-142.412-56.829zm299.545 0l-131.715 50.152V839.97l131.715-53.49V601.275zM625.743 2.186L525.438 44.979l92.944 39.454 106.98-39.454-99.619-42.793zm-139.074 56.85V251.6l124.354 36.116 4.022-175.191-128.376-53.489zm278.149 10.697L647.14 119.886v189.227l117.679-53.49V69.733zM154.688 273.21l-99.62 42.792 92.26 39.455 106.98-39.455-99.62-42.792zM4.916 326.7L1.578 519.265l145.75 64.188V383.528L4.916 326.7zm299.545 0l-131.714 50.152v188.542l131.714-53.49V326.7zm171.168-60.594l-99.62 42.792 92.26 39.455 106.98-39.455-99.62-42.792zm-149.773 53.491l-3.338 192.564 145.75 64.188V376.446l-142.412-56.849zm299.545 0l-131.714 50.152v188.542l131.714-53.49V319.597zM939.217 2.186l-99.619 42.792 92.26 39.454 106.979-39.454-99.62-42.792zm-149.773 53.49l-3.337 192.564 145.75 64.188V112.525L789.444 55.676zm299.545 0l-131.714 50.152V294.37l131.714-53.49V55.676z"
-							/>
-						</svg>
-					</div>
-					<h2 className="text-white text-5xl">AWS ICONS</h2>
+				<div className="flex flex-row justify-center">
+					<h2 className="text-white text-xl md:text-5xl text-center">Quickly Find & Copy AWS Icons</h2>
 				</div>
-				
-				<div className="text-white text-center"><span className="font-bold">{Math.floor(dataset.length/100)*100}+</span> AWS icons</div>
+
+				<div className="flex flex-row justify-center">
+					<p className="text-white text-xs md:text-xl text-center mt-6 md:mt-0">Open source SVG icon library with over {Math.floor(dataset.length / 100) * 100}+ icons
+</p>
+				</div>
 
 				<div className="h-2" />
-				
-				<div className="flex flex-row justify-center">
-					<Attribution />
+
+
+				<div className="mx-auto text-center">
+					<div className="hidden md:block flex-row flex-wrap justify-center items-center align-top mt-4">
+						{/* <a
+							href="https://github.com/boyney123/awstools#adding-a-resource"
+							target="_blank"
+							rel="noreferrer"
+							type="button"
+							class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white shadow-lg bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						>
+							Add icon to list
+							<svg
+								class="ml-3 -mr-1 h-5 w-5"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+								></path>
+							</svg>
+						</a> */}
+						<a
+							href="https://awstools.dev?ref=awsicons.dev"
+							target="_blank"
+							rel="noreferrer"
+							type="button"
+							class="inline-flex ml-3 items-center px-6 py-3 text-base font-medium rounded-md text-white border border-orange border-dashed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						>
+							Checkout awstools.dev
+							<svg
+								class="ml-3 -mr-1 h-5 w-5"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+								></path>
+							</svg>
+						</a>
+						<div className="w-full text-center text-xs mt-4 text-white">
+							Contribute within seconds. Build by{" "}
+							<a
+								href="https://twitter.com/boyney123"
+								target="_blank"
+								rel="noopener"
+							>
+								@boyney123
+							</a>
+						</div>
+						<div className="w-full text-center text-xs text-white">
+						<span className="inline">Forked with ♥️ from</span>
+							<a
+								href="https://heroicons.dev?ref=awsicons.dev"
+								target="_blank"
+								rel="noopener"
+							>
+								{` heroicons.dev`}
+							</a>
+						</div>
+					</div>
 				</div>
 
 				<div className="h-16" />
