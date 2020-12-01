@@ -1,0 +1,1 @@
+export { default as ResAwsCloud9Cloud948Light } from './ResAwsCloud9Cloud948Light'

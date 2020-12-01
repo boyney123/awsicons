@@ -179,7 +179,7 @@ const awsiconsLogo = () => (
 );
 
 const Attribution = () => (
-	<h2 className="text-center font-medium text-xl text-orange-50">
+	<h2 className="text-center font-medium text-base text-orange-50">
 		<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
 			<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
 				<span className="inline">Forked with ♥️ from</span>
@@ -339,7 +339,9 @@ const SectionHero = () => (
 			<div className="w-full max-w-screen-xl">
 				<div className="h-16" />
 
-				<div className="flex flex-row justify-center">
+				
+
+				<div className="flex flex-row justify-center -ml-8">
 					<div className="w-16 h-16 mt-2">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -353,8 +355,11 @@ const SectionHero = () => (
 					</div>
 					<h2 className="text-white text-5xl">AWS ICONS</h2>
 				</div>
+				
+				<div className="text-white text-center"><span className="font-bold">{Math.floor(dataset.length/100)*100}+</span> AWS icons</div>
 
 				<div className="h-2" />
+				
 				<div className="flex flex-row justify-center">
 					<Attribution />
 				</div>
@@ -787,7 +792,7 @@ const MemoIcon = React.memo(({ variant, copyAsJSX, icon, dispatch }) => {
 				</div>
 				<div className="absolute inset-0">
 					<div className="flex flex-row justify-center items-center h-full">
-						<Style className="w-12 h-12 text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-orange-600 group-focus:text-orange-600 dark:group-hover:text-orange-50 dark:group-focus:text-orange-50">
+						<Style className=" text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-orange-600 group-focus:text-orange-600 dark:group-hover:text-orange-50 dark:group-focus:text-orange-50">
 							<SVG id={icon.name} svg={icon.svg} />
 						</Style>
 					</div>

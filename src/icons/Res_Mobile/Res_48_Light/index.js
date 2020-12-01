@@ -1,0 +1,1 @@
+export { default as ResAmazonApiGatewayEndpoint48Light } from './ResAmazonApiGatewayEndpoint48Light'

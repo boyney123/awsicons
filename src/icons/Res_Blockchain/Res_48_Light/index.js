@@ -1,0 +1,1 @@
+export { default as ResAmazonManagedBlockchainBlockchain48Light } from './ResAmazonManagedBlockchainBlockchain48Light'

@@ -1,0 +1,15 @@
+import * as React from "react";
+
+function SvgResAmazonDynamoDbGlobalSecondaryIndex48Light(props) {
+	return (
+		<svg width={48} height={48} xmlns="http://www.w3.org/2000/svg" {...props}>
+			<path
+				d="M22.901 11.836H45.8V2H22.901v9.836zm1.999-2h18.899V3.999H24.9v5.837zm-12.45 2h8.967V2H12.45v9.836zm2.001-2h4.966V3.999h-4.966v5.837zM2 11.836h8.967V2H2v9.836zm2-2h4.967V3.999H4v5.837zm18.901 13.322H45.8V13.32H22.901v9.838zm1.999-2.001h18.899V15.32H24.9v5.837zm-12.45 2.001h8.967V13.32H12.45v9.838zm2.001-2.001h4.966V15.32h-4.966v5.837zM2 23.158h8.967V13.32H2v9.838zm2-2.001h4.967V15.32H4v5.837zm18.901 13.321H45.8v-9.837H22.901v9.837zm1.999-2h18.899v-5.837H24.9v5.837zm-12.45 2h8.967v-9.837H12.45v9.837zm2.001-2h4.966v-5.837h-4.966v5.837zM2 34.478h8.967v-9.837H2v9.837zm2-2h4.967v-5.837H4v5.837zm18.901 13.321H45.8v-9.838H22.901v9.838zm1.999-2h18.899v-5.838H24.9v5.838zm-12.45 2h8.967v-9.838H12.45v9.838zm2.001-2h4.966v-5.838h-4.966v5.838zM2 45.799h8.967v-9.838H2v9.838zm2-2h4.967v-5.838H4v5.838z"
+				fill="#2E27AD"
+				fillRule="evenodd"
+			/>
+		</svg>
+	);
+}
+
+export default SvgResAmazonDynamoDbGlobalSecondaryIndex48Light;
