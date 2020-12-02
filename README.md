@@ -1,4 +1,7 @@
-# awsicons.dev - Quickly Find & Copy AWS Icons
+<div align="center">
+	<h1>awsicons.dev - Quickly Find & Copy AWS Icons</h1>
+</div>
+
 
 <div align="center">
 	Open source SVG icon library with over 500+ icons
