@@ -1,6 +1,6 @@
-# awsicons Web Viewer
+# awsicons - Quickly Find & Copy AWS Icons
 
-A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.
+Open source SVG icon library with over 500+ icons
 
 <br>
 <div align="center">
