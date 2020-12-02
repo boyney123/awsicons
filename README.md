@@ -24,8 +24,6 @@
 </div>
 
 
-
-
 ## Features
 
 ✨ Tag-based search<br>
@@ -33,6 +31,10 @@
 ✨ Click-to-copy to the clipboard as SVG or JSX<br>
 ✨ Dark mode 😎<br>
 ✨ Preferences sync to localStorage<br>
+
+## Purpose
+
+I built this project to allow people to quickly find AWS icons quickly. Simple click to copy to clipboard and job done.
 
 ## Contributing Guide
 
