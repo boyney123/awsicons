@@ -8,17 +8,23 @@
 </div>
 
 
-
-
 <br>
 <div align="center">
 	<img src="https://awsicons.dev/static/social.png" width="600">
 </div>
 <br>
 
-Forked from [heroicons.dev](https://heroicons.dev), [awsicons.dev](https://awsicons.dev) created by me ([@boyney123](https://twitter.com/boyney123)).
+<div align="center">
+	Forked from <a href="https://heroicons.dev">https://heroicons.dev</a> created by me <a href="https://twitter.com/boyney123">@boyney123</a>
+</div>
 
-[Share with your friends on Twitter!](https://twitter.com/intent/tweet?text=Check%20out%20Awsicons!%20%F0%9F%94%A5%0A%0AThanks%20@username_ZAYDEK%20for%20awsicons.dev%20and%20@boyney123%20for%20awsicons.dev!%0A%0Ahttps://awsicons.dev)
+
+<div align="center">
+		<a href="https://twitter.com/intent/tweet?text=Check%20out%20Awsicons!%20%F0%9F%94%A5%0A%0AThanks%20@username_ZAYDEK%20for%20awsicons.dev%20and%20@boyney123%20for%20awsicons.dev!%0A%0Ahttps://awsicons.dev">Share with your friends on Twitter!</a> 
+</div>
+
+
+
 
 ## Features
 
