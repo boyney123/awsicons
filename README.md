@@ -1,6 +1,12 @@
-# awsicons Web Viewer
+<div align="center">
+	<h1>awsicons.dev - Quickly Find & Copy AWS Icons</h1>
+</div>
 
-A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.
+
+<div align="center">
+	Open source SVG icon library with over 500+ icons
+</div>
+
 
 <br>
 <div align="center">
@@ -8,9 +14,15 @@ A set of free MIT-licensed high-quality SVG icons for you to use in your web pro
 </div>
 <br>
 
-Forked from [heroicons.dev](https://heroicons.dev), [awsicons.dev](https://awsicons.dev) created by me ([@boyney123](https://twitter.com/boyney123)).
+<div align="center">
+	Forked from <a href="https://heroicons.dev">https://heroicons.dev</a> created by me <a href="https://twitter.com/boyney123">@boyney123</a>
+</div>
 
-[Share with your friends on Twitter!](https://twitter.com/intent/tweet?text=Check%20out%20Awsicons!%20%F0%9F%94%A5%0A%0AThanks%20@username_ZAYDEK%20for%20awsicons.dev%20and%20@boyney123%20for%20awsicons.dev!%0A%0Ahttps://awsicons.dev)
+
+<div align="center">
+		<a href="https://twitter.com/intent/tweet?text=Check%20out%20Awsicons!%20%F0%9F%94%A5%0A%0AThanks%20@username_ZAYDEK%20for%20awsicons.dev%20and%20@boyney123%20for%20awsicons.dev!%0A%0Ahttps://awsicons.dev">Share with your friends on Twitter!</a> 
+</div>
+
 
 ## Features
 
@@ -19,6 +31,10 @@ Forked from [heroicons.dev](https://heroicons.dev), [awsicons.dev](https://awsic
 ✨ Click-to-copy to the clipboard as SVG or JSX<br>
 ✨ Dark mode 😎<br>
 ✨ Preferences sync to localStorage<br>
+
+## Purpose
+
+I built this project to allow people to quickly find AWS icons quickly. Simple click to copy to clipboard and job done.
 
 ## Contributing Guide
 

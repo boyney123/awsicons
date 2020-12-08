@@ -1,0 +1,7 @@
+export { default as ResAmazonElasticContainerRegistryImage48Light } from './ResAmazonElasticContainerRegistryImage48Light'
+export { default as ResAmazonElasticContainerRegistryRegistry48Light } from './ResAmazonElasticContainerRegistryRegistry48Light'
+export { default as ResAmazonElasticContainerServiceContainer148Light } from './ResAmazonElasticContainerServiceContainer148Light'
+export { default as ResAmazonElasticContainerServiceContainer248Light } from './ResAmazonElasticContainerServiceContainer248Light'
+export { default as ResAmazonElasticContainerServiceContainer348Light } from './ResAmazonElasticContainerServiceContainer348Light'
+export { default as ResAmazonElasticContainerServiceService48Light } from './ResAmazonElasticContainerServiceService48Light'
+export { default as ResAmazonElasticContainerServiceTask48Light } from './ResAmazonElasticContainerServiceTask48Light'
