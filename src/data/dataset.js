@@ -59,9 +59,27 @@ const buildDataSetFromImport = (iconsAsImport, tags = "") => {
 			.replace("Light", "")
 			.replace("Dark", "")
 
+		// Clean up name for tokenizing
+		const filteredName = name
+			.replace('AiA2I', 'AiA2i')
+			.replace('Ec2M5N', 'Ec2M5n')
+			.replace('Ec2R5N', 'Ec2R5n')
+			.replace('IoT', 'Iot')
+			.replace('FSx', 'Fsx')
+			.replace('VMware', 'Vmware')
+
+		// Tokenize on capitalized words
+		const tokens = filteredName
+			.match(/([A-Z]?[^A-Z]*)/g)
+			.slice(0,-1)
+			.map(token => token.toLowerCase())
+
+		// Dedup tags
+		const combinedTags = new Set([name.toLowerCase(), ...tokens, ...tags])
+
 		return {
 			name,
-			tags: [name.toLowerCase(), ...tags],
+			tags: Array.from(combinedTags),
 			svg: iconsAsImport[item],
 			new: false,
 		}
@@ -93,8 +111,8 @@ const dataset = [
 	...buildDataSetFromImport(AWSGameTech, ["game"]),
 	...buildDataSetFromImport(AWSIOT, ["iot", "internet", "things"]),
 	...buildDataSetFromImport(Res_loT, ["iot", "internet", "things"]),
-	...buildDataSetFromImport(AWSMachineLearning, ["AI", "machine", "learning"]),
-	...buildDataSetFromImport(Res_Machine_Learning, ["AI", "machine", "learning"]),
+	...buildDataSetFromImport(AWSMachineLearning, ["ai", "machine", "learning"]),
+	...buildDataSetFromImport(Res_Machine_Learning, ["ai", "machine", "learning"]),
 	...buildDataSetFromImport(AWSManagementGovernance, ["management"]),
 	...buildDataSetFromImport(Res_Management_Governance, ["management"]),
 	...buildDataSetFromImport(AWSMediaServices, ["media", "services"]),
