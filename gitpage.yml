@@ -1,0 +1,38 @@
+theme:
+  primary: blue
+
+blocks: # blocks are how your landing pages are created and ordered
+  header:
+    type: 'clear'
+    props:
+      showViewOnGitHubButton: false
+
+  hero:
+    type: 'sidebyside'
+    props:
+      title: 'Here is a new test'
+      subtitle: 'Random title'
+      command: 'npx gitpages'
+
+  features:
+    type: 'stacked'
+    props:
+      tinyTitle: 'Get started in seconds'
+      title: 'Features Gitpages.app'
+      subtitle: 'What can go here, anything you want!'
+      features:
+        - title: 'Competitive exchange rates'
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.'
+          icon: 'GlobeAltIcon'
+
+        - title: 'No hidden fees'
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.'
+          icon: 'LightningBoltIcon'
+
+        - title: 'Transfers are instant'
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.'
+          icon: 'Transfers are instant'
+
+        - title: 'Mobile notifications'
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.'
+          icon: 'AnnotationIcon'
