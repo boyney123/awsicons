@@ -2,7 +2,7 @@ import * as React from "react"
 
 function SvgArchAwsSumerian32(props) {
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" {...props}>
+		<svg width={40} height={40} xmlns="http://www.w3.org/2000/svg" {...props}>
 			<defs>
 				<linearGradient
 					x1="0%"
